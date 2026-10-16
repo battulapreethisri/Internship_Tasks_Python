@@ -1,7 +1,4 @@
-#String Split and Join
-#https://www.hackerrank.com/challenges/python-string-split-and-join/problem
-def split_and_join(line):
-    # write your code here
-    words=line.split()
-    result="-".join(words)
-    return result
+#What's Your Name?
+#https://www.hackerrank.com/challenges/whats-your-name/problem
+def print_full_name(first, last):
+    print(f'Hello {first} {last}! You just delved into python.')
